@@ -1,0 +1,23 @@
+.pane {
+	-fx-background-color: linear-gradient(from 0% 0% to 
+		100% 100%, blue 0%, silver 100%
+	);	
+}
+
+.btEntrar {
+	-fx-cursor: hand;
+}
+
+.btSair {
+	-fx-cursor: hand;
+}
+
+.btEntrar:hover {
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
+
+.btSair:hover {
+	-fx-background-color: red;
+	-fx-text-fill: white;
+}
